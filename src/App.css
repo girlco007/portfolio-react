@@ -1,0 +1,116 @@
+.body {
+  font-family: 'Lato', sans-serif;
+}
+.navbar-default {
+  background-image: none;
+  background-color: #fff;
+  border-color: #fff;
+  -webkit-box-shadow: none;
+}
+.nav-bar-initial-height {
+  height: 80px;
+}
+
+.nav-bar-initial-paddig {
+  padding-top: 15px
+}
+
+.header {
+  height: 350px;
+  margin-top: 200px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20px;
+}
+
+.App-header {
+  background-color: #f4f4f4;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.vertical-align {
+  position:absolute;
+  top:50%;
+  left:0;
+  width:100%;
+
+}
+
+/*.App-intro {
+  font-size: large;
+}*/
+
+.box{
+  height: 450px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+.footer {
+  /*height: 150px;*/
+  background-color: #000;
+  padding: 20px 0 20px 0;
+
+}
+.footer-padding {
+  padding-top: 30px;
+}
+
+.footer-padding-text {
+  padding-top: 40px;
+  color: #676969;
+  text-align: right;
+
+}
+
+.fo {
+ color: #333;
+}
+
+ul{
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+  font-size: 24px;
+  color: #D84251
+}
+span.logo {
+  /*font-family: 'Comfortaa', cursive;
+  font-weight: 300;*/
+  font-size: 12px;
+  /*color: #D84251*/
+}
+.navbar-default .navbar-brand{
+  color: #D84251
+
+}
+
+.main-text {
+  font-family: 'Montserrat', cursive;
+  font-weight: 100;
+  color: #4C4D4F
+
+
+
+}
+hr {
+  width: 100px;
+  margin: 20px 0 20px 0;
+  border-top: 1px solid #fdc4c4;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
