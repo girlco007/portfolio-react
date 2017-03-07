@@ -14,8 +14,19 @@ export const NavBar = (props) => {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight className="nav-bar-initial-paddig">
-              <NavItem eventKey={1} href={'/home'}>Projects</NavItem>
-              <NavItem eventKey={2} href={'/home'}>Abot Me</NavItem>
+              {/* <li><Link to={'/home'}>Projects</Link></li>
+              <hr className="menu-line"/>
+              <li><Link to={'/aboutme'}>Abot Me</Link></li>
+              <hr className="menu-line"/>
+              <li><Link to={'/resume'}>Résumé</Link></li>
+              <hr className="menu-line"/>
+              <li><Link to={'/contact'}>Contact</Link></li> */}
+
+
+              <NavItem eventKey={1}
+                // onClick={this.props.projects}
+                >Projects</NavItem>
+              <NavItem eventKey={2} href={'/home'}>About Me</NavItem>
               <NavItem eventKey={3} href="#">Résumé</NavItem>
               <NavItem eventKey={4} href="#">Contact</NavItem>
             </Nav>
@@ -23,3 +34,4 @@ export const NavBar = (props) => {
         </Navbar>
     );
   }
+//need to fix Link with NavItem

@@ -1,23 +1,47 @@
 import React from 'react';
-// import {browserHistory} from 'react-router';
+import {browserHistory} from 'react-router';
 import './App.css';
-// import PortfolioBody from './PortfolioBody'
-import {Grid, Row, Col} from 'react-bootstrap'
+
+import modaCover from './img/modaCover.png';
+import gv1 from './img/gv1.png'
+import growingMinds from './img/growingMinds.png'
+import cm from './img/cm.png'
+
+import {Grid, Row, Col, Image} from 'react-bootstrap'
 
 
 export class Home extends React.Component {
+
+  onGumvelope(){
+    browserHistory.push('/gv')
+  }
+
+  onCollegeMama(){
+    browserHistory.push('/mama')
+  }
+
+  onModa(){
+    browserHistory.push('/moda')
+  }
+
+  onNCCS(){
+    browserHistory.push('/nccs')
+  }
+
+  onAnimation(){
+    browserHistory.push('/css')
+  }
+
   render() {
     return (
       <div className='body'>
         <Grid>
           <Row className="show-grid header">
-            <Col xs={12}>
-              <div className="vertical-align">
+            <Col xs={10} xsOffset={1} >
                <h1 className="main-text">Angelika Gaszczyk, a designer.</h1>
-               <hr />
+               <hr className='line'/>
                <p>A designer, with passion for creating user friendly interfaces for both mobile devices and web applications.<br />
                    I can also develop static websites with responsive design. </p>
-               </div>
             </Col>
           </Row>
         </Grid>
@@ -25,26 +49,22 @@ export class Home extends React.Component {
           <Grid>
             <Row className="show-grid">
               <Col xs={12} md={6}>
-                <div className="box"><a href="#" className="box" >gumvelope</a></div>
+                  <Image src={gv1} alt="gumvelope" responsive onClick={this.onGumvelope} className="box" />
               </Col>
 
               <Col xs={12} md={6}>
-                <div className="box"><a href="#" className="box" >Collage mama</a></div>
+                    <Image src={modaCover} alt="moda" responsive onClick={this.onModa} className="box" />
               </Col>
             </Row>
+
+
             <Row className="show-grid">
-              <Col xs={12} md={12}>
-                <div className="box"><a href="#" className="box" >MODA+</a></div>
-              </Col>
-            </Row>
-
-              <Row className="show-grid">
               <Col xs={12} md={6}>
-                <div className="box"><a href="#" /></div>
+                  <Image src={growingMinds} alt="Groving Minds" responsive onClick={this.onNCCS} className="box" />
               </Col>
 
               <Col xs={12} md={6}>
-                <div className="box"><a href="#" /></div>
+                  <Image src={cm} alt="Collage Mama" responsive onClick={this.onCollegeMama} className="box" />
               </Col>
             </Row>
           </Grid>

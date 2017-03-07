@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="227px" height="1024px" viewBox="0 0 227 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group" transform="translate(60.000000, 59.000000)" font-family="Montserrat-Regular, Montserrat" fill="#4A4A4A" font-weight="normal">
+                <text id="Aa" font-size="64">
+                    <tspan x="13.472" y="62">Aa</tspan>
+                </text>
+                <text id="Montserrat" font-size="20">
+                    <tspan x="0.28" y="101">Montserrat</tspan>
+                </text>
+            </g>
+            <g id="Group-2" transform="translate(48.000000, 257.000000)" font-family="HelveticaNeue, Helvetica Neue" fill="#4A4A4A" font-weight="normal">
+                <text id="Aa" font-size="64">
+                    <tspan x="30.08" y="61">Aa</tspan>
+                </text>
+                <text id="Helvetica-Neue" font-size="20">
+                    <tspan x="0.91" y="98">Helvetica Neue</tspan>
+                </text>
+            </g>
+            <circle id="Oval" stroke="#979797" fill="#FFFFFF" cx="116.5" cy="642.5" r="28.5"></circle>
+            <circle id="Oval" fill="#777777" cx="116.5" cy="789.5" r="28.5"></circle>
+            <circle id="Oval" fill="#4A4A4A" cx="116.5" cy="936.5" r="28.5"></circle>
+            <circle id="Oval" fill="#4683FF" cx="116.5" cy="495.5" r="28.5"></circle>
+            <text id="#4683FF" font-family="HelveticaNeue, Helvetica Neue" font-size="20" font-weight="normal" fill="#4A4A4A">
+                <tspan x="77.22" y="551">#4683FF</tspan>
+            </text>
+            <text id="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="20" font-weight="normal" fill="#4A4A4A">
+                <tspan x="76" y="699">#FFFFFF</tspan>
+            </text>
+            <text id="#777777" font-family="HelveticaNeue, Helvetica Neue" font-size="20" font-weight="normal" fill="#4A4A4A">
+                <tspan x="77.08" y="845">#777777</tspan>
+            </text>
+            <text id="#4A4A4A" font-family="HelveticaNeue, Helvetica Neue" font-size="20" font-weight="normal" fill="#4A4A4A">
+                <tspan x="74.82" y="992">#4A4A4A</tspan>
+            </text>
+            <text id="Primary-Typeface" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#B7B5B8">
+                <tspan x="43.2397461" y="50">Primary Typeface</tspan>
+            </text>
+            <text id="Secondary-Typeface" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#B7B5B8">
+                <tspan x="32.7314453" y="247">Secondary Typeface</tspan>
+            </text>
+            <text id="Color-Theory" font-family="OpenSans, Open Sans" font-size="20" font-weight="normal" fill="#B7B5B8">
+                <tspan x="56.4609375" y="441">Color Theory</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

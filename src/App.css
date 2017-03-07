@@ -1,6 +1,74 @@
+/*.me {
+  height: 300px
+}*/
+.big{
+  /*height: 70%;
+  width: 70%;*/
+  transition: all .2s ease-in-out;
+}
+.big:hover {
+  /*height: 100%;
+  width: 100%;*/
+  transform: scale(1.5);
+  margin-top: 50px;
+  margin-bottom: 50px
+}
+
+.hov:hover{
+  background-color: #000;
+}
+.angie{
+  text-align: center;
+  color: #D84251;
+  line-height: 23px;
+  font-family: 'Comfortaa', cursive;
+}
+.center-text {
+  text-align: center;
+}
+.me{
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+
+
+.main-logo {
+  height: 50px;
+}
+.sub-header {
+  margin-top: 150px;
+}
+.shadow {
+  box-shadow:0px 2px 15px 3px #C7C4C8;
+  margin: 80px 0 80px 0;
+  max-width: 700px;
+}
+
+.margin {
+  margin: 80px 0 80px 0;
+  max-width: 150px;
+
+
+}
+
+
+
+/*_____________________________________*/
+
+
 .body {
   font-family: 'Lato', sans-serif;
+  margin-bottom: 50px
 }
+.nav {
+  background-color: #fff;
+}
+
 .navbar-default {
   background-image: none;
   background-color: #fff;
@@ -15,8 +83,17 @@
   padding-top: 15px
 }
 
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #D84251
+
+}
+
+.menu-line{
+  margin: 0 15px 0 15px;
+
+}
 .header {
-  height: 350px;
+  height: 300px;
   margin-top: 200px;
 }
 
@@ -25,49 +102,54 @@
   height: 20px;
 }
 
+.upArrow {
+  height: 20px;
+  text-align: right;
+}
+.upArrow:hover {
+  height: 25px;
+  transition: height .3s;
+
+}
+
 .App-header {
-  background-color: #f4f4f4;
-  height: auto;
+  /*background-color: #f4f4f4;*/
+  /*height: auto;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 80px;*/
 }
-.vertical-align {
-  position:absolute;
-  top:50%;
-  left:0;
-  width:100%;
-
-}
-
-/*.App-intro {
-  font-size: large;
-}*/
 
 .box{
-  height: 450px;
+  max-height: 400px;
   background-color: #fff;
   margin-bottom: 40px;
 }
 
+.box:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+  transition: box-shadow .3s;
+}
+
 .footer {
-  /*height: 150px;*/
-  background-color: #000;
+  background-color: rgb(31, 31, 31);
   padding: 20px 0 20px 0;
 
 }
 .footer-padding {
-  padding-top: 30px;
+  padding: 30px 0 30px 0;
 }
 
 .footer-padding-text {
-  padding-top: 40px;
   color: #676969;
-  text-align: right;
 
 }
 
 .fo {
- color: #333;
+ color: #979797;
+ line-height: 23px;
+ font-family: 'Comfortaa', cursive;
+   /*text-align: right;*/
+
 }
 
 ul{
@@ -100,17 +182,28 @@ span.logo {
   font-family: 'Montserrat', cursive;
   font-weight: 100;
   color: #4C4D4F
-
-
-
 }
-hr {
+.line {
   width: 100px;
   margin: 20px 0 20px 0;
   border-top: 1px solid #fdc4c4;
+}
+
+.fo.title {
+  color: #fff;
+}
+
+.none, .none:hover{
+  color: rgb(31, 31, 31);
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/*@keyframes color-animation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+
+}*/

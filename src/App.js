@@ -8,11 +8,18 @@ import {AboutMe} from './AboutMe';
 import {Resume} from './Resume';
 import {Contact} from './Contact';
 
+import {Mama} from './projects/Mama';
+import {Gumvelope} from './projects/Gumvelope';
+import {Moda} from './projects/Moda';
+import {NCCS} from './projects/nccs';
+import {Animations} from './projects/cssAnimations';
+
 
 
 class App extends Component {
   render() {
     return (
+
       <Router history={browserHistory}>
         <Route path={"/"} component={Root}>
           <IndexRoute component={Home} />
@@ -21,8 +28,13 @@ class App extends Component {
           <Route path={"resume"} component={Resume} />
           <Route path={"contact"} component={Contact} />
 
+          <Route path={"mama"} component={Mama} />
+          <Route path={"gv"} component={Gumvelope} />
+          <Route path={"moda"} component={Moda} />
+          <Route path={"nccs"} component={NCCS} />
+          <Route path={"css"} component={Animations} />
+
         </Route>
-        {/* <Route path={"home"} component={Home} /> */}
       </Router>
     );
   }
