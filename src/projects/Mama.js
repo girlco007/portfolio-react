@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
+import {Link} from 'react-router'
 
 import {Grid, Row, Col, Image} from 'react-bootstrap'
-
 
 import cmCover from '../img/mamaPages/cmCover.png'
 import mama1 from '../img/mamaPages/mama1.png'
@@ -15,42 +15,50 @@ import mama7 from '../img/mamaPages/mama7.png'
 
 export class Mama extends React.Component {
 
-
   render() {
 
     return (
-      <div className='body '>
-        <Grid>
-          <Row className="show-grid sub-header">
-            <Col xs={6} xsOffset={1}>
-              <h2>College mama - documentary movie</h2>
-              <h4>Lookbook</h4>
-              <Row>
-                <Col xs={1}>
-                  <p>Role</p>
-                </Col>
-                <Col xs={3}>
-                  <p>Designer</p>
-                </Col>
-              </Row>
-              <Row>
-              <Col xs={1}>
-                <p>Link</p>
-              </Col>
-              <Col xs={3}>
-                <a href="https://momscollegelife.wordpress.com" target="_blank">https://momscollegelife.com</a>
-              </Col>
-              </Row>
-              <Row>
-                <Col md={5}>
-                  <p>something</p>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
+      <div className='body'>
+        <div className="sub-header">
+          <Grid>
+            <Row className="show-grid">
+              <Col sm={7} xsOffset={1} className="project-head">
+                <h2 className='displayTitle'>College Mama</h2>
+                <h4 className='displayGray'>Lookbook</h4>
+                <Row className='infoSection'>
+                  <Col xs={2}>
+                    <p className='display'>Role</p>
+                  </Col>
+                  <Col xs={5}>
+                    <p>Designer</p>
+                  </Col>
+                </Row>
 
+                <Row>
+                <Col xs={2}>
+                  <p className='display'>Link</p>
+                </Col>
+                <Col xs={4}>
+                  <a href="https://momscollegelife.wordpress.com" target="_blank" className='linkMom'>https://momscollegelife.com</a>
+                </Col>
+                </Row>
+                <Row>
+                  <Col xs={2}>
+                    <p className='display'>About</p>
+                  </Col>
+                  <Col xs={10}>
+                    <p>The main goal of College Mama project is to
+support and encourage women who raise their children and attend school. This project calls for a change in society’s mindset about the traditional way of getting a degree, starting a career and having a family. This documentary offers a unique insight into motherhood told by female students with diverse backgrounds, coming from different countries, of different ages and different life stages.</p>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Grid>
+        </div>
+
+        <Grid>
           <Row>
-            <Col md={6} mdOffset={3} >
+            <Col md={6} mdOffset={3} className='mar'>
               <Image src={cmCover} alt='College mama cover' responsive />
             </Col>
             <Col md={8} mdOffset={2} className="big">
@@ -76,26 +84,29 @@ export class Mama extends React.Component {
             </Col>
           </Row>
         </Grid>
+
+        <Grid>
+          <Row className='mar-top'>
+            <Col xs={2} xsOffset={1}>
+              <Link to={'/nccs'} className="bottomLink">Growing Minds</Link>
+            </Col>
+            <Col xs={2}>
+              <Link to={'/moda'} className="bottomLink">MODA+</Link>
+            </Col>
+            <Col xs={2}>
+              <Link to={'/gv'} className="bottomLink">Gumvelope</Link>
+            </Col>
+            <Col xs={2}>
+              <Link to={'/dd'} className="bottomLink">Daily Designs</Link>
+            </Col>
+            <Col xs={2} >
+              <Link to={'/css'} className="bottomLink">Animation</Link>
+            </Col>
+          </Row>
+        </Grid>
+
+
       </div>
     );
   }
-  // onOpen = evt => {
-  //    this.setState({ lightboxIsOpen: true })
-  //  }
-  //
-  //  onClose = evt => {
-  //    this.setState({ lightboxIsOpen: false })
-  //  }
-  //
-  //  onClickPrev = evt => {
-  //    this.setState({ currentImage: Math.max(0, this.state.currentImage - 1) })
-  //  }
-  //
-  //  onClickNext = evt => {
-  //    this.setState({
-  //      currentImage: Math.min(this.state.images.length - 1, this.state.currentImage + 1)
-  //    })
-  //  }
 }
-
-// onHover if hover change z-index to 99

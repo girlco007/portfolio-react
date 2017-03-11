@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Grid, Row, Col} from 'react-bootstrap'
+import {Grid, Row, Col, Button} from 'react-bootstrap'
 
 
 
@@ -8,13 +8,16 @@ export class Contact extends React.Component {
   render() {
     return (
       <div className='body'>
-        <Grid>
-          <Row className="show-grid sub-header">
-            <Col xs={7} xsOffset={1}>
-              <h2 >I can help </h2>
-              <p>If you have a project you care about I would love to talk to you!</p>
-            </Col>
-          </Row>
+      <Grid >
+        <Row className="about-header" >
+          <Col md={6} mdOffset={3} className="project-head" >
+            <h2>I can help</h2>
+             <p>Get in touch & let's make something awesome together!</p>
+            <Button className='contact' href="mailto:someone@yoursite.com">CONTACT ME</Button>
+            <div className='mar'> </div>
+
+          </Col>
+        </Row>
         </Grid>
       </div>
     );
